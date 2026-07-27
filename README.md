@@ -1,89 +1,65 @@
-# whatsapp-qa-tests
+# Bug Report
 
-# WhatsApp - QA Testing Documentation
-
-This repository contains a comprehensive QA test suite for the WhatsApp application. The goal of this project is to showcase a real-world, modular approach to manual software testing using industry-standard practices. All test cases are written in markdown and structured by feature for clarity, traceability, and future automation support.
-
----
-
-## Covered Modules & Features
-
-The following WhatsApp modules and features will be tested:
-
-Login & Verification  
-One-to-One Messaging  
-Group Messaging  
-Message Forwarding & Archiving  
-Chat Search  
-Media Sharing (Images, Videos, Documents, Audio)  
-Status Updates (Post, View, Delete, Mute/Unmute)  
-Voice & Video Calling  
-Notifications  
-User Blocking & Unblocking  
-Settings Management  
-Theme Selection  
-Chat Backup & Restore  
-Language Preferences  
-App Performance & Responsiveness  
-Network Handling (Online/Offline Modes)  
-Cross-Platform Compatibility (Mobile, Web, Desktop)
+**Bug ID**: BUG-[Platform]-[Incremental Number]  
+**Reported By**: Sundas 
+**Reported On**: [2025-06-30]  
+**Environment**:  
+- **Platform**: Web / Desktop / Android / iOS  
+- **App Version**: generic  
+- **Build Type**: Production / Staging / Beta  
+- **Device/OS**: [e.g., Windows 11, macOS Sonoma, Android 14, iOS 17]
 
 ---
 
-## Test Case Format
-
-Each test case is documented with the following fields:
-
-- Test Case ID  
-- Module  
-- Test Case Description  
-- Expected Result  
-- Priority (High/Medium/Low)  
-- Execution Status (Pass/Fail)  
-- Notes
+## Bug Title  
+*A concise, one-line summary of the issue.*
 
 ---
 
-## Bug Reporting Format
-
-All bug reports are documented using the following structure:
-
-- Title  
-- Module  
-- Steps to Reproduce  
-- Expected vs Actual Result  
-- Severity (Critical/High/Medium/Low)  
-- Environment  
-- Attachments (if applicable)
+## Description  
+*A clear and detailed explanation of what the bug is, when it occurs, and its impact.*
 
 ---
 
-## Files Included
-
-- `TestPlan.md` – Testing strategy and scope of the WhatsApp app  
-- `TestCases/` – Folder containing detailed test cases for each module  
-- `BugReports/` – Collection of identified bugs with structured templates  
-- `sample-bugs.md` – Sample bugs discovered during exploratory testing  
-- `.gitignore` – Ignored system or automation files  
-- `LICENSE` – MIT License for reuse and contribution
+## Steps to Reproduce  
+1. Go to [...]  
+2. Click on [...]  
+3. Observe behavior [...]  
+4. [...]
 
 ---
 
-## Tools Used
-
-- Markdown for writing test cases and plans  
-- GitHub for version control and collaboration  
-- Manual testing on mobile and desktop environments  
-- Appium, Playwright (planned for automation phase)
+## Expected Result  
+*What should happen if the app works correctly.*
 
 ---
 
-## Author
-
-**Sundas Shafi**  
-Software Test Engineer  
-Passionate about improving software quality through structured testing and clean documentation.
+## Actual Result  
+*What actually happens instead of the expected behavior.*
 
 ---
 
-Star this repository if you find it helpful. Feedback and contributions are welcome.
+## Attachments  
+- Screenshot(s): `./Assets/Screenshots/[filename].png`  
+- Video(s): `./Assets/Videos/[filename].mp4`  
+- Logs (if applicable): `./Assets/Logs/[filename].txt`
+
+---
+
+## Severity & Priority  
+- **Severity**: Low / Medium / High / Critical  
+- **Priority**: Low / Medium / High  
+
+---
+
+## Bug Type  
+- Functional / UI / Performance / Crash / Network / Compatibility / Localization / Other
+
+---
+
+## Related Modules / Features  
+*Mention any related modules or features (e.g., Cart, Login, Community Settings)*
+
+---
+
+## Additional Notes 
